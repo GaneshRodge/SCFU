@@ -8,6 +8,8 @@ import { DealerComponent } from './core/components/dealer/dealer.component';
 import { HeaderComponent } from './shared/layout/header/header.component';
 import { FooterComponent } from './shared/layout/footer/footer.component';
 import { SidebarComponent } from './shared/layout/sidebar/sidebar.component';
+import { VendorFinanceComponent } from './core/vendor-finance/vendor-finance.component';
+import { DealerFinanceComponent } from './core/dealer-finance/dealer-finance.component';
 
 @NgModule({
   declarations: [
@@ -16,7 +18,9 @@ import { SidebarComponent } from './shared/layout/sidebar/sidebar.component';
     DealerComponent,
     HeaderComponent,
     FooterComponent,
-    SidebarComponent
+    SidebarComponent,
+    VendorFinanceComponent,
+    DealerFinanceComponent
   ],
   imports: [
     BrowserModule,
